@@ -1,4 +1,4 @@
-# Configure Fortios FireWall
+# Configure EBS Volume Backup Policy 
 
 Use python script to configure EBS volume backup policy
 
@@ -23,3 +23,5 @@ In order to perform desired actions, several permission should be obtained:
 * After creating a new policy, the script will create policy as well as creating a txt file with the policy id.
 
 * If updates are needed, use the policy id in the text file to update current policy with policy id as the fifth input argument. 
+
+* Example config: python dlm.py Test_Instance 14 INSTANCE
